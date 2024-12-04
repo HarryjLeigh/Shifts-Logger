@@ -4,12 +4,96 @@
     <projectFile profileName="IIS Express">ShiftsLogger/ShiftsLogger.csproj</projectFile>
     <projectFile profileName="http">ShiftsLogger/ShiftsLogger.csproj</projectFile>
     <projectFile profileName="https">ShiftsLogger/ShiftsLogger.csproj</projectFile>
+    <projectFile>ShiftsLoggerUI/ShiftsLoggerUI.csproj</projectFile>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c271a88f-fe49-4504-9744-f581d9591bba" name="Changes" comment="" />
+    <list default="true" id="c271a88f-fe49-4504-9744-f581d9591bba" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Shared/Models/Shift.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/API/Controllers/ShiftController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/API/Services/ShiftService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/bin/Debug/net8.0/ShiftsLogger.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/bin/Debug/net8.0/ShiftsLoggerAPI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/bin/Debug/net8.0/ShiftsLoggerAPI.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/obj/Debug/net8.0/ShiftsLogger.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/obj/Debug/net8.0/ShiftsLogger.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/obj/Debug/net8.0/ShiftsLogger.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/obj/Debug/net8.0/ShiftsLogger.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/obj/Debug/net8.0/ShiftsLogger.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/obj/Debug/net8.0/ShiftsLogger.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/obj/Debug/net8.0/ref/ShiftsLogger.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/obj/Debug/net8.0/refint/ShiftsLogger.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShiftsLoggerUI/Controllers/ShiftController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShiftsLoggerUI/Enums/Enums.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShiftsLoggerUI/Services/ShiftService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShiftsLoggerUI/Utilities/ShiftExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShiftsLoggerUI/Utilities/UserInput.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShiftsLoggerUI/Utilities/Util.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShiftsLoggerUI/Utilities/Validator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShiftsLoggerUI/Views/TableVisualisation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShiftsLoggerUI/Views/UserInterface.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ShiftsLogger/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ShiftsLogger/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/config/applicationhost.config" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/config/applicationhost.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger.sln" beforeDir="false" afterPath="$PROJECT_DIR$/ShiftsLogger.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/API/Data/ShiftsDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/API/Data/ShiftsDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/API/Models/Shift.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/ShiftsLogger.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/ShiftsLoggerAPI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/ShiftsLogger.csproj.user" beforeDir="false" afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/ShiftsLogger.csproj.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/ShiftsLogger.http" beforeDir="false" afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/ShiftsLogger.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/bin/Debug/net8.0/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/bin/Debug/net8.0/Microsoft.OpenApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/bin/Debug/net8.0/Microsoft.OpenApi.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/bin/Debug/net8.0/ShiftsLogger.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/bin/Debug/net8.0/ShiftsLogger.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/bin/Debug/net8.0/ShiftsLogger.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/bin/Debug/net8.0/ShiftsLogger.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/bin/Debug/net8.0/ShiftsLogger.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/bin/Debug/net8.0/ShiftsLogger.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/bin/Debug/net8.0/ShiftsLogger.runtimeconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/bin/Debug/net8.0/ShiftsLogger.staticwebassets.endpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/bin/Debug/net8.0/ShiftsLogger.staticwebassets.endpoints.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/bin/Debug/net8.0/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/bin/Debug/net8.0/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/bin/Debug/net8.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/obj/Debug/net8.0/ShiftsLo.E20F1BDC.Up2Date" beforeDir="false" afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/obj/Debug/net8.0/ShiftsLo.E20F1BDC.Up2Date" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/obj/Debug/net8.0/ShiftsLogger.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/obj/Debug/net8.0/ShiftsLogger.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/obj/Debug/net8.0/ShiftsLogger.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/obj/Debug/net8.0/ShiftsLogger.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/obj/Debug/net8.0/ShiftsLogger.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/obj/Debug/net8.0/ShiftsLogger.GlobalUsings.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/obj/Debug/net8.0/ShiftsLogger.GlobalUsings.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/obj/Debug/net8.0/ShiftsLogger.MvcApplicationPartsAssemblyInfo.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/obj/Debug/net8.0/ShiftsLogger.MvcApplicationPartsAssemblyInfo.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/obj/Debug/net8.0/ShiftsLogger.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/obj/Debug/net8.0/ShiftsLogger.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/obj/Debug/net8.0/ShiftsLogger.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/obj/Debug/net8.0/ShiftsLogger.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/obj/Debug/net8.0/ShiftsLogger.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/obj/Debug/net8.0/ShiftsLogger.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/obj/Debug/net8.0/ShiftsLogger.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/obj/Debug/net8.0/ShiftsLogger.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/obj/Debug/net8.0/ShiftsLogger.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/obj/Debug/net8.0/ShiftsLogger.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/obj/Debug/net8.0/ShiftsLogger.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/obj/Debug/net8.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/obj/Debug/net8.0/ref/ShiftsLogger.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/obj/Debug/net8.0/refint/ShiftsLogger.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/obj/Debug/net8.0/staticwebassets.build.endpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/obj/Debug/net8.0/staticwebassets.build.endpoints.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/obj/Debug/net8.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/obj/Debug/net8.0/staticwebassets.build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/obj/Debug/net8.0/staticwebassets.removed.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/obj/Debug/net8.0/staticwebassets.removed.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/obj/Debug/net8.0/staticwebassets/msbuild.build.ShiftsLogger.props" beforeDir="false" afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/obj/Debug/net8.0/staticwebassets/msbuild.build.ShiftsLogger.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.ShiftsLogger.props" beforeDir="false" afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.ShiftsLogger.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.ShiftsLogger.props" beforeDir="false" afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.ShiftsLogger.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/obj/ShiftsLogger.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/obj/ShiftsLogger.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/obj/ShiftsLogger.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/obj/ShiftsLogger.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/obj/ShiftsLogger.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/obj/ShiftsLogger.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ShiftsLoggerAPI/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/obj/rider.project.model.nuget.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShiftsLogger/obj/rider.project.restore.info" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,38 +105,71 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/HarryjLeigh/Shifts-Logger.git",
-    "accountId": "dc2e82e9-cf42-4c6e-8189-9713d284ecfd"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;HarryjLeigh&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 8
-}]]></component>
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/HarryjLeigh/Shifts-Logger.git&quot;,
+    &quot;accountId&quot;: &quot;dc2e82e9-cf42-4c6e-8189-9713d284ecfd&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/ShiftsLoggerAPI/API/Controllers/ShiftController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShiftsLoggerAPI/API/Data/ShiftsDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShiftsLoggerAPI/API/Services/ShiftService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShiftsLoggerAPI/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShiftsLoggerUI/Program.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2pZDBOMLzSQKnSCBjdhNno56Y0h" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.ShiftsLogger: IIS Express.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.ShiftsLogger: IIS Express.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Project.ShiftsLoggerUI.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.ShiftsLogger: IIS Express">
+}</component>
+  <component name="RunManager" selected=".NET Project.ShiftsLoggerUI">
+    <configuration name="ShiftsLoggerUI" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/ShiftsLoggerUI/ShiftsLoggerUI.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="ShiftsLogger: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
-      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/ShiftsLogger/ShiftsLogger.csproj" />
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/ShiftsLoggerAPI/ShiftsLoggerAPI.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
       <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
@@ -67,7 +184,7 @@
       </method>
     </configuration>
     <configuration name="ShiftsLogger: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
-      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/ShiftsLogger/ShiftsLogger.csproj" />
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/ShiftsLoggerAPI/ShiftsLoggerAPI.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
       <option name="LAUNCH_PROFILE_NAME" value="http" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
@@ -82,7 +199,7 @@
       </method>
     </configuration>
     <configuration name="ShiftsLogger: https" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
-      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/ShiftsLogger/ShiftsLogger.csproj" />
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/ShiftsLoggerAPI/ShiftsLoggerAPI.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
       <option name="LAUNCH_PROFILE_NAME" value="https" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
@@ -105,13 +222,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732964567819</updated>
-      <workItem from="1732964569281" duration="1873000" />
+      <workItem from="1732964569281" duration="4697000" />
+      <workItem from="1733060912559" duration="2118000" />
+      <workItem from="1733063039360" duration="757000" />
+      <workItem from="1733063815242" duration="26907000" />
+      <workItem from="1733324884785" duration="6216000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
